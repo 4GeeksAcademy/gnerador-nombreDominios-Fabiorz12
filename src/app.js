@@ -11,8 +11,4 @@ window.onload = function() {
       }
     }
   }
-
-
-
-  
 }
