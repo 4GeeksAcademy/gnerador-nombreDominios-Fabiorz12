@@ -1,11 +1,18 @@
-import "bootstrap";
-import "./style.css";
-
-
-import "./assets/img/rigo-baby.jpg";
-import "./assets/img/4geeks.ico";
-
 window.onload = function() {
-  //write your code here
-  console.log("Hello Rigo from the console!");
-};
+  let pronoun = ["your","our","my"];
+  let adj = ["strong","smart","brave","fast","friendly"]
+  let noun = ["engineer","farmer","leader","musician","teacher"];
+
+  for(let i = 0 ; i< pronoun.length;i++){
+    for(let j = 0; j < adj.length; j++){
+      for(let k = 0; k < noun.length; k++){
+        console.log(pronoun[i] + adj[j] + noun[k] + '.com')
+        document.querySelector("#generator").innerHTML = pronoun[i] + adj[i] + noun[i] + ".com"
+      }
+    }
+  }
+
+
+
+  
+}
