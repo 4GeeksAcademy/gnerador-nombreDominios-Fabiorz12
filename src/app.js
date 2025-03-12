@@ -11,7 +11,6 @@ window.onload = function() {
         let domain = pronoun[i] + adj[j] + noun[k] + '.com';
         console.log(domain);
         result += domain + "<br>";
-        
       }
     }
   }
